@@ -1,0 +1,22 @@
+{
+	"name": "valiant/widget-phone",
+	"description": "Phone widgets.",
+	"keywords": ["yii2", "extension", "widget", "phone", "jquery", "plugin"],
+	"type": "yii2-extension",
+	"license": "BSD 3-Clause",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "ValianT",
+			"email": "mr.igor.prokofev@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2-bootstrap": "@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"valiant\\widget\\": ""
+		}
+	}
+}
