@@ -1,5 +1,5 @@
 <?php
-namespace valiant\widget;
+namespace valiant\widgets;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -66,7 +66,7 @@ class PhoneWidget extends InputWidget
 		$options = $this->getClientOptions();
 		$options = empty($options) ? '' : Json::htmlEncode($options);
 		$view = $this->getView();
-		ValiantAsset::register($view);
+		PhoneAsset::register($view);
 		$id = $this->options['id'];
 		$view->registerJs("jQuery('#$id').valiantPhone($options);");
 	}

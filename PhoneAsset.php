@@ -1,7 +1,8 @@
 <?php
-namespace valiant\widget;
+namespace valiant\widgets;
 
 use yii\web\AssetBundle;
+use Yii;
 
 /**
  * Class PhoneAsset
@@ -14,7 +15,6 @@ use yii\web\AssetBundle;
  */
 class PhoneAsset extends AssetBundle
 {
-	public $sourcePath = '@valiant/assets';
 	public $js = [
 		'valiant.phone.js',
 	];
@@ -22,4 +22,13 @@ class PhoneAsset extends AssetBundle
 	public $depends = [
 		'yii\web\YiiAsset',
 	];
+
+	public function init()
+	{
+		$this->sourcePath = __DIR__ . '/assets';
+
+		parent::init();
+	}
+
+
 }
