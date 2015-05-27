@@ -1,5 +1,5 @@
 {
-	"name": "one-more-developer/yii2-widget-phone",
+	"name": "valiant/yii2-widget-phone",
 	"description": "Phone widgets.",
 	"keywords": ["yii2", "extension", "widget", "phone", "jquery", "plugin"],
 	"type": "yii2-extension",
