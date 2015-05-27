@@ -4,7 +4,7 @@
 	"keywords": ["yii2", "extension", "widget", "phone", "jquery", "plugin"],
 	"type": "yii2-extension",
 	"license": "BSD 3-Clause",
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"homepage": "https://github.com/one-more-developer/yii2-widget-phone",
 	"authors": [
 		{
