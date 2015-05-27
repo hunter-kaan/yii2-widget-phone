@@ -66,7 +66,7 @@ class PhoneWidget extends InputWidget
 		$options = $this->getClientOptions();
 		$options = empty($options) ? '' : Json::htmlEncode($options);
 		$view = $this->getView();
-		PhoneAsset::register($view);
+		ValiantAsset::register($view);
 		$id = $this->options['id'];
 		$view->registerJs("jQuery('#$id').valiantPhone($options);");
 	}
