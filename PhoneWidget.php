@@ -79,7 +79,7 @@ class PhoneWidget extends InputWidget
 	{
 		$format = array_map('intval', array_slice(str_split($this->format), 0, 2));
 		$format[0] = ArrayHelper::getValue($format, 0, 1);
-		$format[1] = ArrayHelper::getValue($format, 0, 3);
+		$format[1] = ArrayHelper::getValue($format, 1, 3);
 		$options = [
 			'format' => $format,
 		];
